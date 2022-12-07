@@ -16,7 +16,12 @@ function level1Solution() {
 
 function level2Solution() {
   // USE CHAINED IF STATEMENT
-  outputEl.innerHTML = '----';
+ if(column <= 2) {
+  outputEl.innerHTML = 'hills';
+ 
+ } else if(column <=3 && column <=7)
+ outputEl.innerHTML = 'hills';
+
 }
 
 function level3Solution() {
