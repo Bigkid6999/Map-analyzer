@@ -21,7 +21,7 @@ function level2Solution() {
  
  } else if(column <=3 && column <=7)
  outputEl.innerHTML = 'hills';
-
+ 
 }
 
 function level3Solution() {
